@@ -1,5 +1,7 @@
 # comments-counter
-统计代码中的注释率，展示在底部状态栏
+Show comments counter and rate in the status bar.
+
+统计代码中的注释率，展示在底部状态栏。
 
 ## Features
 
@@ -9,6 +11,10 @@ For example if there is an image subfolder under your extension project workspac
 
 
 ## Release Notes
+
+### 0.0.2
+
+Add icon and add description.
 
 ### 0.0.1
 

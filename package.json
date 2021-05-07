@@ -1,13 +1,23 @@
 {
 	"name": "comments-counter",
 	"displayName": "Comments Counter",
-	"description": "show comments counter and rate in the status bar",
-	"version": "0.0.1",
+	"description": "show comments counter and rate in the status bar; 在状态栏展示注释行数和注释率",
+	"version": "0.0.2",
 	"author": "tcatche",
 	"publisher": "tcatche",
 	"engines": {
 		"vscode": "^1.49.0"
 	},
+	"icon": "images/icon.png",
+	"license": "MIT",
+  "homepage": "https://github.com/tcatche/vscode-comments-counter",
+  "bugs": {
+    "url": "https://github.com/tcatche/vscode-comments-counter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tcatche/vscode-comments-counter"
+  },
 	"categories": [
 		"Other"
 	],
@@ -15,7 +25,9 @@
     "comments",
     "counter",
     "annotate",
-    "rate"
+    "rate",
+		"注释",
+		"注释率"
   ],
 	"activationEvents": [
 		"onStartupFinished"
@@ -33,11 +45,6 @@
 		"pretest": "npm run compile && npm run lint",
 		"test": "node ./out/test/runTest.js"
 	},
-	"license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/tcatche/comments-counter"
-  },
 	"devDependencies": {
 		"@types/vscode": "^1.49.0",
 		"@types/glob": "^7.1.3",
